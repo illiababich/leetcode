@@ -1,10 +1,17 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
 
-../target
+# Ignore all files in the target directory
+/target/
+
+# Ignore all .class files
+*.class
+
+# Ignore all files in the .idea directory
+/.idea/
