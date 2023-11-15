@@ -15,10 +15,4 @@ public class P1 {
 
         return null;
     }
-
-    public static void main(String[] args) {
-        int[] arr = {2, 5, 5, 11};
-        int target = 10;
-        System.out.println(Arrays.toString(twoSum(arr, target)));
-    }
 }
