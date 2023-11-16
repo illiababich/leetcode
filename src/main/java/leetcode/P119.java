@@ -1,3 +1,5 @@
+package leetcode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,9 +16,5 @@ public class P119 {
         }
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(getRow(3));
     }
 }

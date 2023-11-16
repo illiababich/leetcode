@@ -1,15 +1,17 @@
+package leetcode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class P118 {
     public static List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        List<List<Integer>> result = new ArrayList<>();
 
         if (numRows == 0) {
             return result;
         }
 
-        List<Integer> sublist1 = new ArrayList<Integer>();
+        List<Integer> sublist1 = new ArrayList<>();
         sublist1.add(1);
         result.add(sublist1);
 
@@ -18,7 +20,7 @@ public class P118 {
         }
 
         for (int i = 1; i < numRows; i++) {
-            List<Integer> iteration = new ArrayList<Integer>();
+            List<Integer> iteration = new ArrayList<>();
 
             iteration.add(1);
             for (int j = 1; j < result.get(i - 1).size(); j++) {
@@ -29,9 +31,5 @@ public class P118 {
             result.add(iteration);
         }
         return result;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(generate(5));
     }
 }

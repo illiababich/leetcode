@@ -1,3 +1,5 @@
+package leetcode;
+
 public class P200 {
     public static int numIslands(char[][] grid) {
         int numberOfIslands = 0;
@@ -45,22 +47,5 @@ public class P200 {
         }
 
         return array;
-    }
-
-    public static void main(String[] args) {
-        char[][] grid1 = {
-                {'1', '1', '1'},
-                {'0', '1', '0'},
-                {'1', '1', '1'}
-        };
-        char[][] grid2 = {
-                {'1', '1', '0', '0', '0'},
-                {'1', '1', '0', '0', '0'},
-                {'0', '0', '1', '0', '0'},
-                {'0', '0', '0', '1', '1'}
-        };
-
-        System.out.println(numIslands(grid1));
-        System.out.println(numIslands(grid2));
     }
 }
