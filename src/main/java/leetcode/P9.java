@@ -30,11 +30,4 @@ public class P9 {
 
         return reversed;
     }
-
-    public static void main(String[] args) {
-//        System.out.println(isPalindrome(121));
-//        System.out.println(isPalindrome(3443));
-        System.out.println(isPalindrome(10));
-//        System.out.println(isPalindrome(9));
-    }
 }
