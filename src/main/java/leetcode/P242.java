@@ -17,8 +17,4 @@ public class P242 {
         }
         return map1.equals(map2);
     }
-
-    public static void main(String[] args) {
-        System.out.println(isAnagram("qwerttyy", "qwerttyy"));
-    }
 }
