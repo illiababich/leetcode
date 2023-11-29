@@ -25,8 +25,4 @@ public class P451 {
 
         return String.valueOf(sortedChars);
     }
-
-    public static void main(String[] args) {
-        System.out.println(frequencySort("tree"));
-    }
 }
