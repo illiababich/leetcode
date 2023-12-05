@@ -16,9 +16,4 @@ public class P66 {
         newNumber[0] = 1;
         return newNumber;
     }
-
-    public static void main(String[] args) {
-        int[] input = {9,9,7,9};
-        System.out.println(Arrays.toString(plusOne(input)));
-    }
 }
