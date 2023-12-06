@@ -1,7 +1,5 @@
 package leetcode;
 
-import java.util.Arrays;
-
 public class P66 {
     public static int[] plusOne(int[] digits) {
         int n = digits.length;
