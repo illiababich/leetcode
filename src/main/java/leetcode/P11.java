@@ -23,9 +23,4 @@ public class P11 {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        int[] input = {1,1};
-        System.out.println(maxArea(input));
-    }
 }
