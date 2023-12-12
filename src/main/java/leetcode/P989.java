@@ -1,7 +1,6 @@
 package leetcode;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -21,10 +20,5 @@ public class P989 {
         Collections.reverse(result);
 
         return result;
-    }
-
-    public static void main(String[] args) {
-        int[] a = {1,2,0,0};
-        System.out.println(addToArrayForm(a, 34));
     }
 }
